@@ -23,7 +23,9 @@ GCC_CONFIGURE_OPTS = \
   --enable-targets=all \
   --disable-libquadmath \
   --disable-libssp \
-  --disable-libgomp
+  --disable-libgomp \
+  --disable-multilib \
+  --disable-libstdcxx
 
 DESTDIR=$(CURDIR)/debian/ghdl
 
